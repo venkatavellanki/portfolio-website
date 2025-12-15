@@ -1,7 +1,8 @@
-/* General */
+/* Body */
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
     background-color: #f8f9fa;
+    margin: 0;
 }
 
 /* Glass Navbar */
@@ -10,7 +11,7 @@ body {
     backdrop-filter: blur(8px);
 }
 
-/* Hero */
+/* Hero Section */
 .hero-section {
     height: 100vh;
     background: linear-gradient(135deg, #667eea, #764ba2);
@@ -18,6 +19,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .hero-title {
@@ -34,7 +36,7 @@ body {
     opacity: 0.95;
 }
 
-/* Sections */
+/* Section Titles */
 .section-title {
     text-align: center;
     font-weight: 700;
@@ -65,3 +67,4 @@ body {
     text-align: center;
     padding: 20px;
 }
+
