@@ -1,63 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Venkat Aditya | Frontend Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Venkat | Web Application Portfolio</title>
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Venkat Aditya</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="menu">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top custom-nav">
+  <div class="container">
+    <a class="navbar-brand" href="#home">👨‍💻 Venkat</a>
+    <div class="collapse navbar-collapse show">
+      <ul class="navbar-nav ms-auto">
+        <li><a class="nav-link tab" href="#home">Home</a></li>
+        <li><a class="nav-link tab" href="#about">About</a></li>
+        <li><a class="nav-link tab" href="#education">Education</a></li>
+        <li><a class="nav-link tab" href="#summary">Summary</a></li>
+        <li><a class="nav-link tab" href="#skills">Skills</a></li>
+        <li><a class="nav-link tab" href="#tech">Tech</a></li>
+        <li><a class="nav-link tab" href="#tools">Tools</a></li>
+        <li><a class="nav-link tab" href="#internship">Internship</a></li>
+        <li><a class="nav-link tab" href="#work">Work</a></li>
+        <li><a class="nav-link tab" href="#projects">Projects</a></li>
+        <li><a class="nav-link tab" href="#p1">Sight Sense</a></li>
+        <li><a class="nav-link tab" href="#p2">FortiGuard</a></li>
+        <li><a class="nav-link tab" href="#p3">Airline System</a></li>
+        <li><a class="nav-link tab" href="#certs">Certifications</a></li>
+        <li><a class="nav-link tab" href="#contact">Contact</a></li>
+      </ul>
     </div>
+  </div>
 </nav>
 
-<!-- Hero Section -->
-<section class="hero-section">
-    <div class="container text-center">
-        <h1 class="hero-title">Hi, I'm <span>Venkat Aditya</span></h1>
-        <p class="hero-subtitle">Frontend Developer • React • Python FSD • Cloud</p>
-        <div class="mt-4">
-            <a href="projects.html" class="btn btn-light btn-lg me-3">View Projects</a>
-            <a href="contact.html" class="btn btn-outline-light btn-lg">Contact Me</a>
-        </div>
-    </div>
+<!-- HOME -->
+<section id="home" class="hero">
+  <h1>Venkat Vellanki</h1>
+  <p class="subtitle">Assistant System Engineer | Python Full Stack Developer</p>
+  <p class="tagline">Building scalable applications & intelligent systems 🚀</p>
 </section>
 
-<!-- Skills Section -->
-<section class="container my-5">
-    <h2 class="section-title">Skills</h2>
-    <div class="row g-4">
-        <div class="col-md-3"><div class="skill-card">HTML5</div></div>
-        <div class="col-md-3"><div class="skill-card">CSS3</div></div>
-        <div class="col-md-3"><div class="skill-card">Bootstrap</div></div>
-        <div class="col-md-3"><div class="skill-card">JavaScript</div></div>
-    </div>
+<!-- ABOUT -->
+<section id="about" class="section light">
+  <h2>About Me</h2>
+  <div class="divider"></div>
+  <p class="content">
+    Computer Science graduate with experience in full-stack development, AI/ML concepts, and system design.
+  </p>
 </section>
 
-<!-- Footer -->
-<footer class="footer">
-    © 2025 Venkat Aditya
+<!-- EDUCATION -->
+<section id="education" class="section dark">
+  <h2>Education</h2>
+  <div class="divider"></div>
+  <p class="content">
+    🎓 B.Tech in Computer Science Engineering <br>
+    Focused on programming, data structures, algorithms, and systems.
+  </p>
+</section>
+
+<!-- PROFESSIONAL SUMMARY -->
+<section id="summary" class="section light">
+  <h2>Professional Summary</h2>
+  <div class="divider"></div>
+  <p class="content">
+    Assistant System Engineer at TCS with hands-on experience in Python Full Stack Development,
+    backend systems, and project delivery.
+  </p>
+</section>
+
+<!-- SKILLS OVERVIEW -->
+<section id="skills" class="section dark">
+  <h2>Skills Overview</h2>
+  <div class="divider"></div>
+  <p class="content">
+    Problem-solving • Backend Development • Web Applications • AI/ML • Data Analysis • System Thinking
+  </p>
+</section>
+
+<!-- TECHNICAL SKILLS -->
+<section id="tech" class="section light">
+  <h2>Technical Skills</h2>
+  <div class="divider"></div>
+  <p class="content">
+    Python • Django • HTML • CSS • JavaScript • SQL • REST APIs
+  </p>
+</section>
+
+<!-- TOOLS -->
+<section id="tools" class="section dark">
+  <h2>Tools & Technologies</h2>
+  <div class="divider"></div>
+  <p class="content">
+    Git & GitHub • VS Code • Postman • MySQL • Bootstrap • Agile Workflows
+  </p>
+</section>
+
+<!-- INTERNSHIP -->
+<section id="internship" class="section light">
+  <h2>Internship Experience</h2>
+  <div class="divider"></div>
+  <p class="content">
+    Python Full Stack Development Intern at Elearn Infotech – worked on backend APIs and frontend integration.
+  </p>
+</section>
+
+<!-- WORK EXPERIENCE -->
+<section id="work" class="section dark">
+  <h2>Work Experience</h2>
+  <div class="divider"></div>
+  <p class="content">
+    Assistant System Engineer at TCS – trained in enterprise IT systems, Python development, and web application delivery.
+  </p>
+</section>
+
+<!-- PROJECTS OVERVIEW -->
+<section id="projects" class="section light">
+  <h2>Projects Overview</h2>
+  <div class="divider"></div>
+  <p class="content">
+    Academic and real-time projects focusing on AI, cybersecurity, and data handling applications.
+  </p>
+</section>
+
+<!-- PROJECT 1: SIGHT SENSE -->
+<section id="p1" class="section dark">
+  <h2>Sight Sense</h2>
+  <div class="divider"></div>
+  <div class="project-card">
+    <p>Automated Image Captioning System using AI/Deep Learning to generate meaningful descriptions from images.</p>
+  </div>
+</section>
+
+<!-- PROJECT 2: FORTIGUARD -->
+<section id="p2" class="section light">
+  <h2>FortiGuard</h2>
+  <div class="divider"></div>
+  <div class="project-card">
+    <p>AI-based DDoS, DoS, and MITM mitigation system to protect networks using intelligent threat detection.</p>
+  </div>
+</section>
+
+<!-- PROJECT 3: AIRLINE PASSENGER SYSTEM -->
+<section id="p3" class="section dark">
+  <h2>Airline Passenger System</h2>
+  <div class="divider"></div>
+  <div class="project-card">
+    <p>Data-driven application for smooth passenger management and booking system for airline operations.</p>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certs" class="section light">
+  <h2>Certifications & Achievements</h2>
+  <div class="divider"></div>
+  <p class="content">
+    Python Full Stack Developer Certification • Internship Completion • Academic Achievements
+  </p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+  <h2>Contact & Career Goals</h2>
+  <div class="divider"></div>
+  <p class="content">
+    📧 Email: yourmail@email.com <br>
+    📍 Hyderabad, India <br>
+    Career Goal: Grow as a full-stack engineer and build real-world applications.
+  </p>
+</section>
+
+<footer>
+  © 2025 Venkat Vellanki | Web Application Portfolio
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
